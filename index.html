@@ -1,61 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Apple</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!-- Viewport meta tag - to ensure the page is rendered correctly on mobile device -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Title of the page -->
+	<title> This is my page</title>
+
+	<!-- Include google font family -->
+	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+	<!-- Include styles.css -->
+	<link rel="stylesheet" href="styles.css"> 
+
+	<!-- Include script.js -->
+	<script src="script.js"></script> 
+
 </head>
 <body>
-    <nav>
-        <i class="fa-brands fa-apple"></i>
-        <ul>
-            <li><a href="">Store</a></li>
-            <li><a href="">Mac</a></li>
-            <li><a href="">iPad</a></li>
-            <li><a href="">Iphone</a></li>
-            <li><a href="">Watch</a></li>
-            <li><a href="">Airpods</a></li>
-            <li><a href="">Tv & Home</a></li>
-            <li><a href=""> Only in Apple</a></li>
-            <li><a href="">Accessories</a></li>
-            <li><a href="">Support</a></li>
+	
+	<!-- Container -->
+	<div>
+		<h1>Welcome to Communication Lab!</h1>
+       	<h3>This example is for Introduction to HTML</h3>
+        <p>This is an example of a page built with HTML.</p>
+        <p>Here is a <a href="https://www.w3schools.com/" target="_blank">link to w3Schools site in new window</a></p>
+		<p>Here is a <a href="https://www.w3schools.com/">link to w3Schools site</a></p>
+	</div>
+
+	<!-- Grey container -->
+	<div class="my-class">
+		<ul>
+            <li>Comics</li>
+            <li>Sound</li>
+			<ul>
+				<li>Sound 1</li>
+				<li>Sound 2</li>
+			</ul>
+            <li>Video</li>
+            <li>Portfolio</li>
+				<ol>
+					<li>Sound 1</li>
+					<li>Sound 2</li>
+				</ol>
         </ul>
-        <div class="icon">
-            <i class="fa-solid fa-magnifying-glass"></i>
-        </div>
-        <div class="shopping">
-            <i class="fa-solid fa-bag-shopping"></i>
-        </div>
+	</div>	
+	<br>
 
+	<!-- Display image 1 -->
+	<img src="img/picture1.jpg" width="600" height="240">
+	<br><br><br>
 
-    </nav>
-    <main>
-        <h1>iPhone 14 Pro</h1>
-        <div class="pre">
-            <h2>Pro.Beyond.</h2>
-        </div>
-        <div class="link">
-            <a href="">
-                <span>
-                    Learn more
-                    <i class="fa-solid fa-greater-than" style="padding: 5px; font-size:15px; color:#2997ff;"></i>
-                </span>
-                <span>
-                    Buy
-                    <i class="fa-solid fa-greater-than"style="padding: 5px; font-size:15px; color:#2997ff;"></i>
-                </span>
-            </a>
-        </div>
-        <div class="photo">
-            <img src="https://www.apple.com/v/iphone-14-pro/a/images/overview/hero/hero_iphone_14_pro__kzr001ge0262_large.jpg" alt="">
+	<!-- Display image 2 - use an image as a link -->
+	<a href="https://nyuad.nyu.edu/"><img src="img/picture2.jpg" width="600" height="240"></a>
+	
 
-        </div>
-    </main>
-
-
+	<!-- Display video -->
+	<video width="400" height="240" controls autoplay muted>
+  		<source src="img/video.mp4" type="video/mp4">
+	</video> 
+	
 
 </body>
+
 </html>
+
